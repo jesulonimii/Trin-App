@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00ABEE</color>
+    <color name="colorPrimaryDark">#00ABEE</color>
+    <color name="colorAccent">#E91E63</color>
+
+
+    <color name="colorTheme">#04141b</color>
+    <color name="colorThemeBlue">#00ABEE</color>
+
+    <color name="colorBg">#04141b</color>
+
+    <color name="grey">#f4f4f4</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <color name="cardBg">#09202B</color>
+    <color name="whiteTextField">#424242</color>
+
+    <color name="whiteText">#000</color>
+    <color name="blackText">#fff</color>
+    <color name="greyText">#707070</color>
+
+    <color name="colorWarning">#F6BB08</color>
+    <color name="colorDanger">#EA2323</color>
+    <color name="colorSuccess">#0DBC4A</color>
+</resources>

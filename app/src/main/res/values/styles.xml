@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Customize bottom sheets in app -->
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+        <!-- customise activity transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="android:windowBackground">@color/colorBg</item>
+        <item name="android:colorBackground">@color/colorBg</item>
+    </style>
+
+
+    <!-- customise toolbar text style -->
+    <style name="expandedBarTextStyle" parent="AppTheme">
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name="collapsedBarTextStyle" parent="AppTheme">
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">@color/colorThemeBlue</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+    </style>
+
+
+    <!-- customise bottom sheet shape -->
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/layout_curved_edges</item>
+    </style>
+
+    <!--**** customise bottom sheet shape end**** -->
+
+
+</resources>
