@@ -1,3 +1,3 @@
 # TRIN APP
 
-### Source code for the trin app
+<img src="https://jesulonimii.me/images/portfolio-images/trinApp.png"/>
